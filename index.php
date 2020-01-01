@@ -19,7 +19,7 @@
         $body = $_POST["body"];
         $headers = "From: anton8cs.beget.tech";
         if (mail($emailTo, $subject, $body, $headers)) {
-            echo '<div class="alert alert-primary" role="alert">
+            echo '<div class="alert alert-success" role="alert">
                         Письмо отправлено!
                     </div>';
         } else {
